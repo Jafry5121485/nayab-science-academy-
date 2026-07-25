@@ -3,95 +3,185 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nayab Science Academy</title>
+<title>Nayab Science Academy | Jhoke Qalandar Bakhsh</title>
+
 <style>
-body{
+*{
     margin:0;
-    font-family:Arial,sans-serif;
-    background:#f4f4f4;
+    padding:0;
+    box-sizing:border-box;
 }
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
 header{
-    background:#003366;
-    color:white;
+    background:linear-gradient(135deg,#003366,#0056b3);
+    color:#fff;
     text-align:center;
-    padding:30px;
+    padding:50px 20px;
 }
+
+header h1{
+    font-size:42px;
+}
+
+header h3{
+    margin-top:10px;
+    font-weight:normal;
+}
+
+header p{
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#ffc107;
+    color:#000;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
 nav{
-    background:#0055aa;
-    padding:12px;
-    text-align:center;
+    background:#002244;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
 }
+
 nav a{
     color:white;
     text-decoration:none;
-    margin:15px;
+    padding:15px 20px;
     font-weight:bold;
 }
+
+nav a:hover{
+    background:#0b5ed7;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
 section{
-    max-width:1000px;
-    margin:20px auto;
-    background:white;
-    padding:20px;
-    border-radius:10px;
+    margin-bottom:50px;
 }
-h2{
-    color:#003366;
-}
-footer{
-    background:#003366;
-    color:white;
+
+.section-title{
     text-align:center;
-    padding:15px;
+    color:#003366;
+    margin-bottom:25px;
+    font-size:32px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 </style>
+
 </head>
+
 <body>
 
 <header>
+
 <h1>NAYAB SCIENCE ACADEMY</h1>
+
 <h3>Jhoke Qalandar Bakhsh</h3>
+
 <p>Principal: Alamdar Hussain Jafri</p>
+
+<a class="btn" href="#admission">
+Admission Open 2026–2027
+</a>
+
 </header>
 
 <nav>
-<a href="#about">About</a>
-<a href="#courses">Courses</a>
-<a href="#gallery">Gallery</a>
-<a href="#contact">Contact</a>
-</nav>
 
+<a href="#about">About</a>
+
+<a href="#courses">Courses</a>
+
+<a href="#faculty">Faculty</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
 <section id="about">
-<h2>About Us</h2>
-<p>
-Nayab Science Academy is committed to providing quality education with experienced teachers and a modern learning environment.
-</p>
+    <h2>About Us</h2>
+    <p>
+        Nayab Science Academy, Jhoke Qalandar Bakhsh, is committed to providing
+        quality education with experienced teachers and a modern learning environment.
+        We prepare students for Matric, FSc Pre-Medical, and FSc Pre-Engineering
+        with a focus on excellent academic results.
+    </p>
 </section>
 
 <section id="courses">
-<h2>Courses Offered</h2>
-<ul>
-<li>Matric (All Groups)</li>
-<li>FSc Pre-Medical</li>
-<li>FSc Pre-Engineering</li>
-<li>ICS</li>
-<li>FA</li>
-<li>IT Classes</li>
-</ul>
+    <h2>Our Courses</h2>
+
+    <div class="card">
+        <h3>Matric Science</h3>
+        <p>Complete preparation for Board Examinations.</p>
+    </div>
+
+    <div class="card">
+        <h3>FSc Pre-Medical</h3>
+        <p>Biology, Chemistry, Physics and English.</p>
+    </div>
+
+    <div class="card">
+        <h3>FSc Pre-Engineering</h3>
+        <p>Mathematics, Physics, Chemistry and English.</p>
+    </div>
+</section>
+<section id="faculty">
+    <h2>Our Faculty</h2>
+
+    <div class="card">
+        <h3>Alamdar Hussain Jafri</h3>
+        <p>Principal</p>
+        <p>Experienced and dedicated educationist committed to academic excellence.</p>
+    </div>
 </section>
 
 <section id="gallery">
-<h2>Gallery</h2>
-<p>Academy images will be displayed here.</p>
+    <h2>Gallery</h2>
+
+    <img src="images/image.banner.jpg" alt="Nayab Science Academy Banner" width="100%" style="border-radius:10px; margin-top:15px;">
+
 </section>
 
 <section id="contact">
-<h2>Contact Us</h2>
-<p><strong>Address:</strong> Jhoke Qalandar Bakhsh, Pakistan</p>
-<p><strong>Phone:</strong> 03126126607</p>
+    <h2>Contact Us</h2>
+
+    <p><strong>Address:</strong> Jhoke Qalandar Bakhsh, Pakistan</p>
+
+    <p><strong>Phone:</strong> +92 XXX XXXXXXX</p>
+
+    <p><strong>Email:</strong> info@nayabscienceacademy.com</p>
 </section>
 
 <footer>
-© 2026 Nayab Science Academy. All Rights Reserved.
+    <p>© 2026 Nayab Science Academy. All Rights Reserved.</p>
 </footer>
 
 </body>
