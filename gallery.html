@@ -1,60 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Gallery - Nayab Science Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academy Gallery | Nayab Science Academy</title>
+
 <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-font-family:Arial;
-background:#f5f5f5;
-text-align:center;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f5f5;
 }
-.box{
-max-width:900px;
-margin:40px auto;
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 0 10px gray;
+
+header{
+    background:#006400;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
-img{
-width:250px;
-margin:10px;
-border-radius:10px;
+
+header h1{
+    font-size:32px;
 }
-a{
-display:inline-block;
-margin-top:20px;
-padding:10px 20px;
-background:#0b5ed7;
-color:white;
-text-decoration:none;
-border-radius:5px;
+
+header p{
+    margin-top:8px;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:white;
+    color:#006400;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.back-btn:hover{
+    background:#e6e6e6;
+}
+
+.gallery{
+    max-width:1200px;
+    margin:30px auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:#006400;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
 }
 </style>
+
 </head>
+
 <body>
 
-<div class="box">
+<header>
+<h1>NAYAB SCIENCE ACADEMY</h1>
+<p>Jhoke Qalandar Bakhsh</p>
 
-<h1>Gallery</h1>
+<a href="index.html" class="back-btn">🏠 Back to Home</a>
+</header>
 
-<p>Photos of Nayab Science Academy will be displayed here.</p>
+<div class="gallery">
 
-<img src="images/1738994553034~3.jpg" alt="Academy Photo">
-<img src="images/1753375510705.jpg" alt="Academy Photo">
-<img src="images/1753581574216.jpg" alt="Academy Photo">
-<img src="images/1760532347803.png" alt="Academy Photo">
-<img src="images/1770562055131.png" alt="Academy Photo">
-<img src="images/1784904601517.jpg" alt="Academy Photo">
-<img src="images/1784960675049.png" alt="Academy Photo">
-<img src="images/Snapshot-128929963.jpg" alt="Academy Photo">
-<img src="images/image.banner.jpg" alt="Academy Banner">
+<img src="images/image.banner.jpg" alt="Banner">
 
-<br><br>
+<img src="images/Screenshot_20241122-155922.jpg" alt="Logo">
 
-<a href="index.html">Back to Home</a>
+<img src="images/1738994553034~3.jpg" alt="Gallery">
+
+<img src="images/1753375510705.jpg" alt="Gallery">
+
+<img src="images/1753581574216.jpg" alt="Gallery">
+
+<img src="images/1760532347803.png" alt="Gallery">
+
+<img src="images/1770562055131.png" alt="Gallery">
+
+<img src="images/1784904601517.jpg" alt="Gallery">
+
+<img src="images/1784960675049.png" alt="Gallery">
+
+<img src="images/FB_IMG_17258054899445285.jpg" alt="Gallery">
+
+<img src="images/IMG-20250501-WA0062.jpg" alt="Gallery">
+
+<img src="images/IMG_20241230_112835.jpg" alt="Gallery">
+
+<img src="images/IMG_20241230_113012.jpg" alt="Gallery">
+
+<img src="images/Picsart_25-04-26_20-48-13-416.jpg" alt="Gallery">
+
+<img src="images/Snapchat-128929963.jpg" alt="Gallery">
+
+<img src="images/file_000000007b6082069c7dee2d0440b913.png" alt="Gallery">
 
 </div>
+
+<footer>
+<p>© 2026 Nayab Science Academy | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
